@@ -4,19 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://<your-username>.github.io/<repo-name>",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "axios": "^1.14.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-router-dom": "^7.13.2",
     "recharts": "^3.8.1"
   },
