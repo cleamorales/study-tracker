@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://study-tracker-production-1352.up.railway.app/api',
+  baseURL: 'https://study-tracker-backend-9q1c.onrender.com/api',
 })
 
 api.interceptors.request.use((config) => {
